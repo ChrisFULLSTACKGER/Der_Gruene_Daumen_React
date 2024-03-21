@@ -1,6 +1,6 @@
 import React from "react";
 import Contact from "../Contact";
-import Impressum from "../Impressum";
+import Impress from "../Impressum";
 
 
 
@@ -8,8 +8,11 @@ const Footer = () => {
     return(
         <div>
             <p>Footer component</p>
-            <Impressum/>
-            <Contact/>
+            <div>
+                <Impress/>
+                <Contact/>
+            </div>
+
         </div>
     );
 };

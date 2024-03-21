@@ -5,7 +5,7 @@ import Header from "./Header";
 import Logo from "./Logo";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import Title from "./Logo";
+import Content from "./Content"
 
 
 const currentDate = new Date();
@@ -16,7 +16,9 @@ const App = () => {
        <Header/>
         <Logo />
         <Navbar/>
+        <Content/>
         <Footer/>
+        <Header/>
     </div>
   );
 }

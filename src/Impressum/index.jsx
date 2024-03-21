@@ -1,14 +1,14 @@
 import React from "react";
-import impressum from "./impressum.css"
+import "./impressum.css"
 
 
 
-const Impressum = () => {
+const Impress = () => {
     return (
         <div className="itemImpress">
-            <p>Impress component</p>
+            <p>Impressum</p>
         </div>
     );
 };
 
-export default Impressum;
+export default Impress;
