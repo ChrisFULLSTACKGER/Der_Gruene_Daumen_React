@@ -1,5 +1,5 @@
 import React from 'react';
-import './contentgravecare.css';
+import './contentmaincomponent.css';
 import ContentHome from "../Content-1";
 import ContentTeam from "../Content-2";
 import ContentGardening from "../Content-3";
