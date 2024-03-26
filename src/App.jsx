@@ -5,7 +5,7 @@ import Header from "./Header";
 import Logo from "./Logo";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import Content from "./Content"
+import Content from "./Content/ContentMainComponent"
 
 
 const currentDate = new Date();

@@ -1,11 +1,11 @@
 import React from 'react';
 import './contentgravecare.css';
-import ContentHome from "./Content-1";
-import ContentTeam from "./Content-2";
-import ContentGardening from "./Content-3";
-import ContentLandscape from "./Content-4";
-import ContentFloristik from "./Content-5";
-import ContentGravecare from "./Content-6";
+import ContentHome from "../Content-1";
+import ContentTeam from "../Content-2";
+import ContentGardening from "../Content-3";
+import ContentLandscape from "../Content-4";
+import ContentFloristik from "../Content-5";
+import ContentGravecare from "../Content-6";
 
 
 
