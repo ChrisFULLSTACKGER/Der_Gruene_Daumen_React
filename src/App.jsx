@@ -8,8 +8,6 @@ import Navbar from "./Navbar";
 import Content from "./Content/ContentMainComponent"
 
 
-const currentDate = new Date();
-
 const App = () => {
   return (
     <div className="App">
