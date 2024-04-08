@@ -8,21 +8,23 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Content from "./Content/ContentMainComponent"
 
+import Hello from "./Content/ContentTestComponentHello";
+import Goodbye from "./ContentTestComponentGoodbye";
 
 const App = () => {
   return (
     <div className="App">
+        <Router>
+            <Routes>
+                <Route exact path="/" element={<Hello/>}/>
+                <Route path='/goodbye' element={<Goodbye/>}/>
+            </Routes>
+        </Router>
        <Header/>
         <Logo />
         <Navbar/>
         <Content/>
         <Footer/>
-        <Header/>
-        {/*<Router>*/}
-        {/*    <Routes>*/}
-        {/*        <Route exact path="/" element={}*/}
-        {/*    </Routes>*/}
-        {/*</Router>*/}
     </div>
   );
 }
