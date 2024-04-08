@@ -1,6 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import classNames from "classnames"
+// import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Header from "../../Header";
 import Logo from "../../Logo";
 import Footer from "../../Footer";
