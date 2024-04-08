@@ -14,12 +14,12 @@ import Goodbye from "./ContentTestComponentGoodbye";
 const App = () => {
   return (
     <div className="App">
-        <Router>
-            <Routes>
-                <Route exact path="/" element={<Hello/>}/>
-                <Route path='/goodbye' element={<Goodbye/>}/>
-            </Routes>
-        </Router>
+        {/*<Router>*/}
+        {/*    <Routes>*/}
+        {/*        <Route exact path="/" element={<Hello/>}/>*/}
+        {/*        <Route path='/goodbye' element={<Goodbye/>}/>*/}
+        {/*    </Routes>*/}
+        {/*</Router>*/}
        <Header/>
         <Logo />
         <Navbar/>
