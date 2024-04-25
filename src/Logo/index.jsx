@@ -1,4 +1,5 @@
 import React from "react";
+import "@fontsource/ubuntu/300.css";
 import "./logo.css"
 import styled from "styled-components";
 

@@ -1,0 +1,12 @@
+.contentWrapper1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.contentWrapper2 {
+    /*border: 1px solid black;*/
+    margin: 17px 0 0 0;
+    align-items: center;
+}

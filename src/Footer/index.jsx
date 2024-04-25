@@ -1,6 +1,7 @@
 import React from "react";
 import Contact from "../Contact";
-import Impressum from "../Impressum";
+import Impress from "../Impressum";
+import Header from "../Header";
 
 
 
@@ -8,8 +9,12 @@ const Footer = () => {
     return(
         <div>
             <p>Footer component</p>
-            <Impressum/>
-            <Contact/>
+            <div>
+                <Impress/>
+                <Contact/>
+                <Header/>
+            </div>
+
         </div>
     );
 };
