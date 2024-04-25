@@ -18,6 +18,7 @@ const navbar = () => {
                     <p className='navbarItem navbarBox'>Kontakt</p>
                     <p className='navbarItem navbarBox'>Impressum</p>
                     <p className='navbarItem navbarBox'>Social Media</p>
+                    <p className='navbarItem navbarBox'>Gallery</p>
             </div>
         </div>
     );
